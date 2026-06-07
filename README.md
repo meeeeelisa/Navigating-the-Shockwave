@@ -14,6 +14,14 @@ This GitHub repository offers a template specifically designed to teach students
 
 [Provide instructions on how to get started with your project, including any necessary software or data. Include installation instructions and any prerequisites or dependencies that are required.]
 
+| Category | Dataset Name | Source | Data Level | Purpose |
+|----------|-------------|---------|------------|----------|
+| Oil price data | Brent Crude Oil Price | FRED (POILBREUSDM) | Monthly / Time series | Measure international oil prices |
+| Geopolitical event data | Geopolitical Shock Label | Manually constructed | Monthly / Event labels | Mark each geopolitical crisis |
+| Arrival data | Port arrival vessel data | Taiwan Port Net Service | Vessel level / Daily data | Count monthly arrivals and vessel-type composition per port |
+| Departure data | Port departure vessel data | Taiwan Port Net Service | Vessel level / Daily data | Calculate monthly departures and port stay duration per port |
+| Port statistics data | TEU, cargo volume, vessel stats | iMarine Port Development Database | Port level / Monthly/Yearly | Supplement port cargo throughput and overall activity indicators |
+https://drive.google.com/drive/folders/1QRtu7Nj-4uAfTyKZ1MEvrgiaTj1LyAYd?usp=sharing
 ## File Structure
 
 [Describe the file structure of your project, including how the files are organized and what each file contains. Be sure to explain the purpose of each file and how they are related to one another.]
