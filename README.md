@@ -201,13 +201,14 @@ This analysis explores the potential for "Passive Decarbonization":
 
 **Establishment of the "Fundamental Premise":** Geopolitics and the Energy Market
 The research first confirms a high degree of causality between geopolitical events and oil prices. During normal, non-war periods, the average oil price is $67.48; however, during months with war outbreaks, the average price significantly spikes to $75.43 (a price difference of nearly $8). A T-test yields a P-value of 0.0008, reaching a highly significant level.
+![Fundamental Premise: Geopolitical Shocks & Oil Prices](chart/Fundamental_Premise.png)
 
 **The Dual Effect of High Oil Prices on Carbon Emissions in Peacetime vs. Wartime (Baseline: Per $10 Increase)**
 
 🟢 Non-War Periods (Peacetime): For every $10 increase in international oil prices, the average carbon emission per vessel in Taiwan's port areas substantially increases by 0.061 tonnes (P=0.002). This result supports the "slow steaming and port congestion hypothesis"—during peacetime, high oil prices prompt carriers to collectively reduce speed at sea, leading to disrupted arrival schedules, passive port congestion, and prolonged generator fuel combustion.
 
 🔴 Wartime Periods (Geopolitical Shock): When geopolitical conflicts erupt, for every $10 increase in oil prices, the average carbon emission per vessel only increases by 0.024 tonnes (the interaction term oil_price:any_shock is significantly negative at -0.0037, P=0.019).
-
+![Dual Effect of Oil Prices on Carbon Emissions](chart/Dual_Effect_of_Oil_Prices_on_Carbon_Emissions.png)
 **Core Academic Implication: Geopolitics as an Environmental "Safety Valve"**
 Solid data reveals that the environmental degradation (carbon emission acceleration) caused by high oil prices during wartime is forcefully braked, effectively suppressing the increase by approximately 60%. This reflects that when geopolitical conflicts occur, major global supply chain detours (such as rerouting around the Cape of Good Hope) draw vessel capacity away from the Far East, inadvertently relieving congestion at Taiwan's ports. Simultaneously, under the immense time pressure of wartime crises, carriers drastically improve loading and unloading efficiency at non-direct warzone ports, thereby reducing unnecessary idling and energy consumption during berthing.
 
