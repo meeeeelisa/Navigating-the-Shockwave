@@ -60,10 +60,15 @@ source("visualization_big_data_g7.R")
 ## Analysis
 
 1. **ESG Carbon Emission Analysis** ([esg.R](esg.R)): Estimates per-vessel carbon emissions using the IMO empirical formula, and uses regression models to examine the impact of "oil price" and "oil price shock" on carbon emissions, along with a t-test comparing oil prices between shock months and normal months
-- IMO Methodology
-$$E_{\text{CO}_2} = \left( T \times P_{\text{aux}} \times LF \times SFC \times CF \right) \times 10^{-6}$$
-- OLS Interaction Model
-$$\text{estimated\_co2}_{ipt} = \beta_0 + \beta_1 \cdot \text{oil\_price}_t + \beta_2 \cdot \text{any\_shock}_t + \beta_3 \cdot (\text{oil\_price}_t \times \text{any\_shock}_t) + \mathbf{\Gamma} \cdot \mathbf{X}_{ipt} + \alpha_p + \delta_{\text{year}} + \lambda_{\text{month}} + \epsilon_{ipt}$$
+* IMO Methodology:
+  $$
+  E_{\text{CO}_2} = \left( T \times P_{\text{aux}} \times LF \times SFC \times CF \right) \times 10^{-6}
+  $$
+
+* OLS Interaction Model:
+  $$
+  \text{estimated\_co2}_{ipt} = \beta_0 + \beta_1 \cdot \text{oil\_price}_t + \beta_2 \cdot \text{any\_shock}_t + \beta_3 \cdot (\text{oil\_price}_t \times \text{any\_shock}_t) + \mathbf{\Gamma} \cdot \mathbf{X}_{ipt} + \alpha_p + \delta_{\text{year}} + \lambda_{\text{month}} + \epsilon_{ipt}
+  $$
 2. **Port and Vessel Traffic Analysis** ([visualization_big_data_g7.R](visualization_big_data_g7.R)):
    - Comparison of vessel type composition across ports
    - Sensitivity of each port (and each vessel type/cluster) to oil price shocks
