@@ -102,7 +102,7 @@ High-level analysis of average monthly arrivals during oil shock periods reveals
 
 **Hualien Port:** Most sensitive, experiencing a -14.26% drop in average monthly arrivals during shocks.
 
-**Taipei Port: **Also significantly affected, with a -9.16% decrease.
+**Taipei Port:** Also significantly affected, with a -9.16% decrease.
 Keelung Port: Shows a moderate decline of -5.86%.
 
 **Kaohsiung Port:** The most resilient, with only a -2.99% drop, reinforcing its status as a critical global gateway.
